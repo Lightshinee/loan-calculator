@@ -1,0 +1,142 @@
+@font-face {
+  font-family: poppins;
+  src: url(../fonts/Poppins-Black.ttf) format("truetype");
+  src: url(../fonts/Poppins-Regular.ttf) format("truetype");
+  src: url(../fonts/Poppins-Bold.ttf) format("truetype");
+  src: url(../fonts/Poppins-Light.ttf) format("truetpe");
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: poppins;
+  background-color: #00061d;
+}
+
+.container {
+  width: 25em;
+  background-color: white;
+  margin: 2em auto;
+  border-radius: 3px;
+  padding: 1em;
+}
+
+h1 {
+  margin-bottom: .8em;
+  padding-top: .2em;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-align: center;
+  border-bottom: 1px solid #333;
+}
+
+.input-group {
+  width: 100%;
+  padding: .2em 0;
+  margin-right: 1em;
+  margin-bottom: .5em;
+}
+
+.form-group {
+  border: .5px solid #7d7c7c;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: stretch;
+      -ms-flex-pack: stretch;
+          justify-content: stretch;
+  border-radius: 5px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.form-group .form-control {
+  border: none;
+  line-height: 2em;
+  outline: none;
+  width: 100%;
+  padding-left: 5px;
+}
+
+.form-group .input-group-addon {
+  background-color: #dfdfdf;
+  padding: .2em 1em;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  width: auto;
+  color: #222;
+  border-right: 1px solid #7d7c7c;
+}
+
+.years-repay {
+  margin-bottom: 20px;
+  height: 2em;
+}
+
+.btn {
+  width: 100%;
+  padding: .7em 0;
+  text-align: center;
+  color: white;
+  background-color: #00061d;
+  border: none;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background-color: #000a31;
+}
+
+h5 {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.result-form-group {
+  background-color: #dfdfdf;
+  padding: .1em 0;
+  color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 1px solid #bbbbbb;
+}
+
+.result-form-group .result-addon {
+  font-size: .8rem;
+  width: auto;
+  text-align: left;
+  border-right: 1px solid #bbbbbb;
+}
+
+.result-form-group .form-control {
+  width: 62%;
+  line-height: 2em;
+}
+
+.alert {
+  width: 100%;
+  padding: .5em 0;
+  text-align: center;
+  color: #bb0f0f;
+  background-color: rgba(255, 88, 88, 0.652);
+  border: none;
+  border-radius: 5px;
+}
+
+#loading {
+  margin-top: .5em;
+  margin-left: 5em;
+  display: none;
+}
+
+#result {
+  display: none;
+}
+/*# sourceMappingURL=style.css.map */
